@@ -3,6 +3,11 @@ body {
     padding: 0;
 }
 
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
 .header,
 .top {
     padding: 24px 256px;
@@ -140,4 +145,23 @@ button a {
     font-weight: bold;
     align-self:flex-end;
     padding-right: 70px;
+}
+
+.call {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 400px;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 60px 150px;
+    border-radius: 15px;
+}
+
+.callText {
+    color: white;
+}
+
+.call button {
+    color: white;
+    border-color: white;
 }
