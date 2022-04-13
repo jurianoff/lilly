@@ -109,10 +109,35 @@ button a {
     border-radius: 16px;
     width: 250px;
     height: auto;
-    border: 1px solid blue;
+    border: 2px solid #1F2937;
 }
 
 .cards div div {
     width: 250px;
     font-size: 16px;
+}
+
+.quote {
+    margin-top: 200px;
+    background-color: #E5E7EB;
+    padding: 0px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    color: #1F2937;
+}
+
+.quote .signature {
+    font-size: 30px;
+    font-weight: bold;
+    align-self:flex-end;
+    padding-right: 70px;
 }
